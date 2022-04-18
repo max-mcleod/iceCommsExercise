@@ -16,9 +16,6 @@ export default function Footer() {
                 <p>CopyRight 2019. All Rights Reserved</p>
             </div> */}
 
-            <div className='grid grid-cols-2'>
-
-            </div>
             <img className='m-auto pt-10' src="../assets/svg/logo-white.svg" alt="" />
             <div className='flex flex-col md:flex-col-reverse justify-start text-white text-center'>
                 <p className=''>social media icons</p>
