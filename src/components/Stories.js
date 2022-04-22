@@ -31,11 +31,11 @@ export default function Stories() {
                 return (
                     <div className='relative h-[550px] overflow-hidden'>
                         <img className='w-full h-full object-cover' src={story.img} alt="" />
-                        <div className='absolute bottom-10 left-12 right-12'>
-                            <p className='text-white text-xl font-bold'>{story.title}</p>
-                            <p className='text-white mt-1'>by {story.author}</p>
+                        <div className='text-white absolute bottom-10 left-12 right-12'>
+                            <p className='text-xl font-bold'>{story.title}</p>
+                            <p className='mt-1'>by {story.author}</p>
                             <hr className='opacity-25 border mt-4' />
-                            <button className='text-white font-semibold tracking-widest mt-5'>READ STORY &#8594;</button>
+                            <button className='font-semibold tracking-widest mt-5'>READ STORY &#8594;</button>
                         </div>
                     </div>
                 )

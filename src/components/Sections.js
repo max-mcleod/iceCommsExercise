@@ -29,10 +29,10 @@ export default function Sections() {
             {sectionData.map((section, i) => {
                 return(
                     <div className={i === 0 ? `flex md:flex-row flex-col-reverse text-white ${section.style}` : section.orientation === 'right' ? "flex md:flex-row flex-col-reverse" : "flex md:flex-row-reverse flex-col-reverse"}>
-                        <div className="py-20 m-auto w-[30rem]">
-                            <section className='m-10 text-left text-4xl font-semibold tracking-widest'>{section.title}</section>
-                            <section className='mx-10 text-left text-gray-400'>{section.text}</section>
-                            <button className='m-10 text-left font-semibold tracking-widest'>GET AN INVITE &#8594;</button>
+                        <div className="text-left py-20 m-auto w-[30rem] min-w-[500px]">
+                            <section className='m-10 text-4xl font-semibold tracking-widest'>{section.title}</section>
+                            <section className='mx-10 text-gray-400'>{section.text}</section>
+                            <button className='m-10 font-semibold tracking-widest'>GET AN INVITE &#8594;</button>
                         </div>
                         <div className="md:w-3/5">
                             <img className='h-full w-full overflow-hidden object-cover' src={section.img} alt="" />

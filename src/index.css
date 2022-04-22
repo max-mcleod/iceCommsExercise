@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.navList li {
+  @apply inline px-5 font-semibold tracking-widest;
+}
+
+.footerButtons button {
+  @apply xl:block md:inline block xl:ml-0 md:mr-5 m-auto pb-5;
+}
+
+.mediaIcons img {
+  @apply mr-3 inline;
+}
